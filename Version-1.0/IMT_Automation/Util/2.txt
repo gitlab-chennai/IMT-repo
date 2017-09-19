@@ -1,0 +1,1054 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-05 18:32 EDT
+Nmap scan report for cutdesk-02.micron.com (10.102.29.6)
+Host is up (0.00027s latency).
+Not shown: 90 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: 18:03:73:2A:D7:00 (Dell)
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 7|2008|Vista|2012|Longhorn (96%)
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_2008 cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_2012 cpe:/o:microsoft:windows
+Aggressive OS guesses: Microsoft Windows 7 SP0 - SP1 or Windows Server 2008 (96%), Microsoft Windows Server 2008 SP2 (95%), Microsoft Windows Vista SP1 (95%), Microsoft Windows 7 (95%), Microsoft Windows Server 2008 SP1 (95%), Microsoft Windows 7 SP1 (95%), Microsoft Windows Vista SP0 - SP2, Windows Server 2008, or Windows 7 Ultimate (93%), Microsoft Windows Vista or Windows 7 SP1 (93%), Microsoft Windows 7 or Windows Server 2008 R2 (93%), Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for cutgoblin-03.micron.com (10.102.29.12)
+Host is up (0.00022s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 74:D4:35:84:24:28 (Unknown)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for hclctoesxi11.micron.com (10.102.29.31)
+Host is up (0.00028s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+8000/tcp open  http-alt
+MAC Address: 00:25:90:FA:47:08 (Super Micro Computer)
+Aggressive OS guesses: VMware ESXi Server 5.0 (96%), VMware ESXi Server 4.1 (96%), Crestron XPanel control system (94%), NAS4Free (FreeBSD 9.1) (92%), Epson Stylus Pro 400 printer (91%), VMware ESXi Server 4.1.0 (91%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (90%), FreeBSD 9.1-RELEASE (90%), Vodavi XTS-IP PBX (90%), FreeBSD 8.0-RELEASE (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for hclctoesxi18.micron.com (10.102.29.38)
+Host is up (0.00034s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: F8:BC:12:36:37:0E (Unknown)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.22
+OS details: Linux 2.6.22 (embedded, ARM)
+Network Distance: 1 hop
+
+Nmap scan report for hclctoesxi25.micron.com (10.102.29.45)
+Host is up (0.00052s latency).
+Not shown: 90 closed ports
+PORT      STATE SERVICE
+53/tcp    open  domain
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: CC:EF:48:B4:79:47 (Cisco Systems)
+Device type: general purpose|media device
+Running (JUST GUESSING): Microsoft Windows Vista|2008|7|2012|Longhorn (98%), Samsung embedded (89%)
+OS CPE: cpe:/o:microsoft:windows_vista cpe:/o:microsoft:windows_server_2008::sp2 cpe:/o:microsoft:windows_7::-:ultimate cpe:/o:microsoft:windows_7::sp1:ultimate cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_2012 cpe:/o:microsoft:windows cpe:/h:samsung:le32b651
+Aggressive OS guesses: Microsoft Windows Vista (98%), Microsoft Windows Server 2008 SP2 (95%), Microsoft Windows Vista SP2 or Windows 7 Ultimate SP0 - SP1 (95%), Microsoft Windows 7 SP0 - SP1 (94%), Microsoft Windows 7 (94%), Microsoft Windows 7 Professional SP1 (94%), Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8 (94%), Microsoft Windows 7 or Windows Server 2008 R2 (94%), Microsoft Windows Vista SP0 - SP2, Windows Server 2008, or Windows 7 Ultimate (92%), Microsoft Windows Server 2008 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for raid3.micron.com (10.102.29.103)
+Host is up (0.00019s latency).
+Not shown: 89 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 00:15:17:EE:03:69 (Intel Corporate)
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|7|Vista|Longhorn|2012 (98%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2 cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_2012
+Aggressive OS guesses: Microsoft Windows Server 2008 SP2 (98%), Microsoft Windows Server 2008 R2 (96%), Microsoft Windows 7 SP0 - SP1 or Windows Server 2008 (95%), Microsoft Windows Vista SP1 (95%), Microsoft Windows 7 (95%), Microsoft Windows Server 2008 SP1 (95%), Microsoft Windows 7 SP1 (95%), Microsoft Windows 8 (94%), Microsoft Windows 7 or Windows Server 2008 R2 (93%), Microsoft Windows Vista SP0 - SP2, Windows Server 2008, or Windows 7 Ultimate (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.104
+Host is up (0.00031s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 00:25:90:FF:D8:57 (Super Micro Computer)
+Device type: broadband router
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: OpenWrt Kamikaze - Backfire 10.03 (Linux 2.6.19 - 2.6.32)
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.105
+Host is up (0.00020s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:25:90:FA:47:14 (Super Micro Computer)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.106
+Host is up (0.00031s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 00:25:90:FF:8F:B9 (Super Micro Computer)
+Device type: broadband router
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: OpenWrt Kamikaze - Backfire 10.03 (Linux 2.6.19 - 2.6.32)
+Network Distance: 1 hop
+
+Nmap scan report for sles11sp3.micron.com (10.102.29.108)
+Host is up (0.00022s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 90:B1:1C:40:6C:78 (Dell)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for qa-mse-8-pc.micron.com (10.102.29.109)
+Host is up (-0.0015s latency).
+Not shown: 99 filtered ports
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+MAC Address: D0:50:99:7D:18:30 (ASRock Incorporation)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows Vista|2008|7
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.110
+Host is up (0.00030s latency).
+Not shown: 95 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+199/tcp  open  smux
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 78:45:C4:F3:23:ED (Dell)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for idrac-5zk7q22.micron.com (10.102.29.111)
+Host is up (0.00027s latency).
+Not shown: 96 closed ports
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+80/tcp   filtered http
+443/tcp  filtered https
+5900/tcp filtered vnc
+MAC Address: B8:2A:72:FB:EC:94 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.114
+Host is up (0.00027s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 94:DE:80:AF:64:E5 (Giga-byte Technology Co.)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 - 3.9 (93%), Linux 3.0 - 3.9 (91%), Linux 2.6.22 - 2.6.36 (90%), Linux 2.6.32 - 3.6 (90%), Linux 2.6.39 (90%), Linux 2.6.32 (90%), Crestron XPanel control system (89%), Netgear DG834G WAP or Western Digital WD TV media player (89%), HP P2000 G3 NAS device (86%), Linux 2.6.32 - 2.6.35 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.116
+Host is up (0.00024s latency).
+Not shown: 95 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+427/tcp  open  svrloc
+443/tcp  open  https
+8000/tcp open  http-alt
+MAC Address: 00:25:90:FA:7A:64 (Super Micro Computer)
+Aggressive OS guesses: VMware ESXi Server 5.0 (96%), VMware ESXi Server 4.1 (96%), Crestron XPanel control system (94%), NAS4Free (FreeBSD 9.1) (92%), Epson Stylus Pro 400 printer (91%), VMware ESXi Server 4.1.0 (91%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (90%), FreeBSD 9.1-RELEASE (90%), Vodavi XTS-IP PBX (90%), FreeBSD 8.0-RELEASE (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.117
+Host is up (0.0012s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 0C:C4:7A:3C:8A:12 (Unknown)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.118
+Host is up (0.00018s latency).
+Not shown: 97 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+5900/tcp open  vnc
+MAC Address: 78:2B:CB:21:AC:BA (Dell)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for qa-mse-6.micron.com (10.102.29.119)
+Host is up (0.00026s latency).
+Not shown: 99 filtered ports
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+MAC Address: D0:50:99:9F:15:27 (ASRock Incorporation)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP|printer|firewall|specialized|broadband router
+Running (JUST GUESSING): Motorola embedded (97%), Konica Minolta embedded (95%), ZyXEL ZyNOS 3.X (93%), Papouch embedded (89%), XAVi embedded (87%)
+OS CPE: cpe:/h:motorola:rfs_6000 cpe:/h:konicaminolta:1600f cpe:/o:zyxel:zynos:3 cpe:/h:xavi:7001
+Aggressive OS guesses: Motorola RFS 6000 wireless switch (97%), Konica Minolta 1600f printer (95%), ZyXEL ZyWALL 2 firewall or Prestige 660HW-61 ADSL router (ZyNOS 3.62) (93%), Papouch TME Ethernet thermometer (89%), XAVi 7001 DSL modem (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.120
+Host is up (0.00020s latency).
+Not shown: 97 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+MAC Address: 44:A8:42:25:2B:7D (Unknown)
+Aggressive OS guesses: Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 2.6.32 (94%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.32 - 2.6.35 (93%), Linux 3.3 (92%), Linux 3.0 - 3.9 (92%), Linux 2.6.24 - 2.6.36 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.123
+Host is up (0.00030s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 0C:C4:7A:22:01:65 (Unknown)
+Device type: broadband router
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: OpenWrt Kamikaze - Backfire 10.03 (Linux 2.6.19 - 2.6.32)
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.124
+Host is up (0.00014s latency).
+Not shown: 94 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+427/tcp  open  svrloc
+443/tcp  open  https
+8000/tcp open  http-alt
+8080/tcp open  http-proxy
+MAC Address: C8:1F:66:EB:B7:C7 (Dell Pcba Test)
+Aggressive OS guesses: Crestron XPanel control system (94%), VMware ESXi Server 5.0 (94%), VMware ESXi Server 4.1 (94%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (92%), Epson Stylus Pro 400 printer (91%), FreeBSD 8.0-RELEASE (91%), FreeNAS 0.69.2 (FreeBSD 6.3-STABLE - 6.4-RELEASE) (91%), VMware ESXi Server 4.1.0 (91%), FreeBSD 6.2-RELEASE (91%), 3Com SuperStack 3 Switch 3870 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.126
+Host is up (0.00034s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 00:25:90:3F:51:35 (Super Micro Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for desktop-bufd8io.micron.com (10.102.29.129)
+Host is up (0.00024s latency).
+Not shown: 95 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: D4:AE:52:B1:80:D1 (Dell)
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows Vista|7|2008|Longhorn|2012 (93%)
+OS CPE: cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_vista::sp2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_2008 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_2012
+Aggressive OS guesses: Microsoft Windows Vista SP1 - SP2 or Windows 7 (93%), Microsoft Windows 7 SP0 - SP1 or Windows Server 2008 (93%), Microsoft Windows Vista SP1 (93%), Microsoft Windows Server 2008 SP1 (93%), Microsoft Windows 7 SP1 (93%), Microsoft Windows Server 2008 SP2 (92%), Microsoft Windows 7 (92%), Microsoft Windows 7 or Windows Server 2008 R2 (91%), Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8 (91%), Microsoft Windows Vista SP0 - SP2, Windows Server 2008, or Windows 7 Ultimate (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for ubuntu.micron.com (10.102.29.131)
+Host is up (0.00021s latency).
+All 100 scanned ports on ubuntu.micron.com (10.102.29.131) are closed
+MAC Address: 00:50:56:8E:E7:2C (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.132
+Host is up (0.00023s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 54:9F:35:07:77:BC (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for oschncontroller.micron.com (10.102.29.134)
+Host is up (0.00020s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+5000/tcp open  upnp
+MAC Address: 00:50:56:8E:02:B1 (VMware)
+Aggressive OS guesses: Linux 2.6.32 (96%), Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.8 (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.26 - 2.6.35 (94%), Linux 2.6.32 - 2.6.35 (93%), Linux 2.6.32 - 3.2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.136
+Host is up (0.00050s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: CC:EF:48:B4:AA:0E (Cisco Systems)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.30
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.137
+Host is up (0.00029s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: E0:DB:55:01:D3:B8 (Dell)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.138
+Host is up (-0.00020s latency).
+Not shown: 94 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+427/tcp  open  svrloc
+443/tcp  open  https
+8000/tcp open  http-alt
+8080/tcp open  http-proxy
+MAC Address: 00:25:90:3A:34:30 (Super Micro Computer)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: VMware ESXi Server 5.0 (93%), VMware ESXi Server 4.1 (92%), NAS4Free (FreeBSD 9.1) (88%), FreeBSD 5.4-RELEASE (88%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (86%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0) (85%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0, PowerPC) (85%), FreeBSD 6.2-RELEASE-p2 (pf with scrub enabled) (85%), Crestron XPanel control system (85%), Netgear DG834G WAP or Western Digital WD TV media player (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for idrac-7wj2xq1.micron.com (10.102.29.139)
+Host is up (0.00075s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 78:2B:CB:41:BF:34 (Dell)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for fmlvvmwbld-2.micron.com (10.102.29.141)
+Host is up (0.00069s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:35:76:48 (VMware)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.142
+Host is up (0.00033s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 00:25:90:3F:7F:33 (Super Micro Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for cutdesk-rhel6-3.micron.com.micron.com (10.102.29.143)
+Host is up (0.00028s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 90:B1:1C:77:17:2E (Dell)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.144
+Host is up (0.00034s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: 00:25:90:3F:7F:58 (Super Micro Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.145
+Host is up (0.00020s latency).
+Not shown: 91 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+2049/tcp open  nfs
+5900/tcp open  vnc
+MAC Address: 00:15:17:C2:52:70 (Intel Corporate)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for fmlvvmwbld-2.micron.com (10.102.29.146)
+Host is up (0.00040s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:9D:47:AC (VMware)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for mse.micron.com (10.102.29.147)
+Host is up (0.00022s latency).
+Not shown: 90 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: D0:50:99:1D:C2:CC (ASRock Incorporation)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.149
+Host is up (-0.00021s latency).
+Not shown: 94 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+427/tcp  open   svrloc
+443/tcp  open   https
+8000/tcp open   http-alt
+8080/tcp closed http-proxy
+MAC Address: 44:A8:42:24:C3:85 (Unknown)
+Aggressive OS guesses: VMware ESXi Server 5.0 (92%), VMware ESXi Server 4.1 (92%), Crestron XPanel control system (92%), Netgear DG834G WAP or Western Digital WD TV media player (90%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (90%), FreeBSD 8.0-BETA2 - 9.1-RELEASE (90%), FreeNAS 0.686 (FreeBSD 6.2-RELEASE) or VMware ESXi Server 3.0 - 4.0 (89%), FreeBSD 8.0-RELEASE (89%), VMware ESX Server 4.0.1 (89%), Linux 2.6.24 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for idrac-6hxvp22.micron.com (10.102.29.152)
+Host is up (0.00027s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+MAC Address: B8:2A:72:FC:48:32 (Unknown)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for hcl-qa-fln-249.micron.com (10.102.29.153)
+Host is up (-0.00037s latency).
+Not shown: 95 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49153/tcp open  unknown
+49154/tcp open  unknown
+MAC Address: BC:5F:F4:C8:AB:E1 (ASRock Incorporation)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows Vista|2008|7
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7
+Network Distance: 1 hop
+
+Nmap scan report for mse-dev.micron.com (10.102.29.154)
+Host is up (0.00021s latency).
+Not shown: 92 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+MAC Address: 8C:89:A5:5B:FB:2F (Micro-Star INT'L CO.)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.157
+Host is up (0.00024s latency).
+Not shown: 95 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+427/tcp  open  svrloc
+443/tcp  open  https
+8000/tcp open  http-alt
+MAC Address: 74:D4:35:80:E0:A3 (Unknown)
+Aggressive OS guesses: Crestron XPanel control system (94%), VMware ESXi Server 5.0 (94%), VMware ESXi Server 4.1 (94%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (93%), Epson Stylus Pro 400 printer (91%), FreeBSD 8.0-RELEASE (91%), FreeNAS 0.69.2 (FreeBSD 6.3-STABLE - 6.4-RELEASE) (91%), FreeBSD 6.2-RELEASE (91%), 3Com SuperStack 3 Switch 3870 (90%), VMware ESXi Server 4.1.0 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for desktop-pp5mbiu.micron.com (10.102.29.159)
+Host is up (0.00023s latency).
+Not shown: 84 closed ports
+PORT     STATE    SERVICE
+9/tcp    filtered discard
+79/tcp   filtered finger
+81/tcp   filtered hosts2-ns
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+179/tcp  filtered bgp
+389/tcp  filtered ldap
+445/tcp  open     microsoft-ds
+513/tcp  filtered login
+2001/tcp filtered dc
+2049/tcp filtered nfs
+2121/tcp filtered ccproxy-ftp
+3389/tcp open     ms-wbt-server
+5357/tcp open     wsdapi
+5631/tcp filtered pcanywheredata
+8000/tcp filtered http-alt
+MAC Address: 94:DE:80:AF:66:B8 (Giga-byte Technology Co.)
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|7|2012|Longhorn|Vista (92%)
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7:::ultimate cpe:/o:microsoft:windows_2012 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_vista:::business
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 (92%), Microsoft Windows Server 2008 SP2 (90%), Microsoft Windows 7 or Windows Server 2012 (90%), Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8 (90%), Microsoft Windows Server 2008 SP1 (89%), Microsoft Windows 7 (89%), Microsoft Windows Longhorn (89%), Microsoft Windows Vista Business (89%), Microsoft Windows Vista SP0 or SP1 (89%), Microsoft Windows Vista SP1 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for msedev.micron.com (10.102.29.160)
+Host is up (0.00023s latency).
+Not shown: 90 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 8C:89:A5:5B:FD:56 (Micro-Star INT'L CO.)
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2 cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_8
+OS details: Microsoft Windows Server 2008 SP2, Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8
+Network Distance: 1 hop
+
+Nmap scan report for sesqa-ms-7637.micron.com (10.102.29.162)
+Host is up (0.00022s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: D0:50:99:7B:C7:D7 (ASRock Incorporation)
+Aggressive OS guesses: Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 2.6.32 (95%), Linux 3.8 (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.32 - 2.6.35 (93%), Linux 2.6.32 - 3.2 (93%), Linux 3.0 - 3.9 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for skul1.micron.com (10.102.29.164)
+Host is up (0.00017s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+3306/tcp open  mysql
+5900/tcp open  vnc
+MAC Address: 8C:89:A5:30:E2:28 (Micro-Star INT'L CO.)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for hcl-qa-fln-250.micron.com (10.102.29.165)
+Host is up (0.00016s latency).
+Not shown: 91 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: D0:50:99:7D:94:FE (ASRock Incorporation)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.166
+Host is up (0.00023s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+5900/tcp open  vnc
+6001/tcp open  X11:1
+MAC Address: 00:27:0E:18:39:F6 (Intel Corporate)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for sesqa-pxe-server.micron.com (10.102.29.170)
+Host is up (0.00021s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2049/tcp open  nfs
+5900/tcp open  vnc
+6001/tcp open  X11:1
+MAC Address: E0:DB:55:07:FB:78 (Dell)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for mse-pc.micron.com (10.102.29.172)
+Host is up (0.00023s latency).
+Not shown: 91 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: 20:25:64:0C:35:CA (Unknown)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for mse-dev-pc.micron.com (10.102.29.173)
+Host is up (0.00043s latency).
+Not shown: 90 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 8C:89:A5:5B:FA:DA (Micro-Star INT'L CO.)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for comet.micron.com (10.102.29.174)
+Host is up (0.00021s latency).
+Not shown: 87 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: F8:B1:56:9A:68:11 (Dell Pcba Test)
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|Vista|7 (93%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2 cpe:/o:microsoft:windows_vista cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_8
+Aggressive OS guesses: Microsoft Windows Server 2008 SP2 (93%), Microsoft Windows Server 2008 R2 (90%), Microsoft Windows Vista (90%), Microsoft Windows 7 SP0 - SP1 or Windows Server 2008 (89%), Microsoft Windows Vista SP1 (89%), Microsoft Windows 7 SP0 - SP1 (89%), Microsoft Windows 7 (89%), Microsoft Windows Server 2008 SP1 (89%), Microsoft Windows 7 Professional SP1 (89%), Microsoft Windows 7 SP1 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.177
+Host is up (-0.00020s latency).
+Not shown: 94 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+427/tcp  open   svrloc
+443/tcp  open   https
+8000/tcp open   http-alt
+8080/tcp closed http-proxy
+MAC Address: 00:25:90:3B:8A:EE (Super Micro Computer)
+Aggressive OS guesses: VMware ESXi Server 5.0 (95%), VMware ESXi Server 4.1 (95%), Crestron XPanel control system (92%), NAS4Free (FreeBSD 9.1) (90%), Netgear DG834G WAP or Western Digital WD TV media player (90%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (90%), FreeBSD 8.0-BETA2 - 9.1-RELEASE (90%), FreeNAS 0.686 (FreeBSD 6.2-RELEASE) or VMware ESXi Server 3.0 - 4.0 (89%), FreeBSD 8.0-RELEASE (89%), VMware ESX Server 4.0.1 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for hcl-dev-fln-227.micron.com (10.102.29.180)
+Host is up (0.00018s latency).
+Not shown: 90 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: D0:50:99:63:8B:14 (ASRock Incorporation)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for gtest-rhel6-4.micron.com (10.102.29.183)
+Host is up (0.00020s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 54:BE:F7:40:F7:1B (Pegatron)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9, Linux 3.0 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for hcl-qa-fln-244.micron.com (10.102.29.185)
+Host is up (0.00015s latency).
+Not shown: 97 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+MAC Address: D0:50:99:71:91:F7 (ASRock Incorporation)
+Aggressive OS guesses: Linux 2.6.32 (96%), Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.8 (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.26 - 2.6.35 (94%), Linux 2.6.32 - 2.6.35 (93%), Linux 2.6.32 - 3.2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.186
+Host is up (0.00020s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 78:2B:CB:41:BF:2C (Dell)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.187
+Host is up (-0.00052s latency).
+Not shown: 95 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+427/tcp  open  svrloc
+443/tcp  open  https
+8000/tcp open  http-alt
+MAC Address: 00:25:90:3B:8B:36 (Super Micro Computer)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: VMware ESXi Server 5.0 (93%), VMware ESXi Server 4.1 (92%), NAS4Free (FreeBSD 9.1) (88%), FreeBSD 5.4-RELEASE (88%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (86%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0) (85%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0, PowerPC) (85%), FreeBSD 6.2-RELEASE-p2 (pf with scrub enabled) (85%), Crestron XPanel control system (85%), Netgear DG834G WAP or Western Digital WD TV media player (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.102.29.188
+Host is up (0.0049s latency).
+All 100 scanned ports on 10.102.29.188 are closed
+MAC Address: 00:15:17:C2:52:72 (Intel Corporate)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|VoIP adapter
+Running: Caldera Open Unix 7.X, SCO OpenServer 5.X, SCO SCO UNIX 3.X, SCO UnixWare 7.X, Siemens embedded
+OS CPE: cpe:/o:caldera:open_unix:7 cpe:/o:sco:openserver:5 cpe:/o:sco:sco_unix:3 cpe:/o:sco:unixware:7 cpe:/h:siemens:hipath_4000
+OS details: Caldera Open Unix 7.1.0, SCO OpenServer 5, SCO UNIX 3.2, SCO UnixWare 7.1.1, Siemens HiPath 4000 VoIP adapter
+Network Distance: 1 hop
+
+Nmap scan report for venkatvm.micron.com (10.102.29.189)
+Host is up (0.00029s latency).
+Not shown: 97 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+MAC Address: 00:50:56:8E:33:91 (VMware)
+Aggressive OS guesses: Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 2.6.32 (95%), Linux 3.8 (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.32 - 3.2 (93%), Linux 2.6.32 - 2.6.35 (93%), Linux 3.0 - 3.9 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for gaint-pc.micron.com (10.102.29.190)
+Host is up (0.00022s latency).
+Not shown: 87 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+3389/tcp open  ms-wbt-server
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+MAC Address: D4:AE:52:65:4A:A6 (Dell)
+Device type: general purpose
+Running: Microsoft Windows 2008|7
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2 cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_8
+OS details: Microsoft Windows Server 2008 SP2, Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8
+Network Distance: 1 hop
+
+Nmap scan report for hulk.micron.com (10.102.29.191)
+Host is up (0.00021s latency).
+Not shown: 91 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+3389/tcp open  ms-wbt-server
+MAC Address: 18:03:73:3F:C6:22 (Dell)
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+OS details: Microsoft Windows Server 2008 SP2
+Network Distance: 1 hop
+
+Nmap scan report for desktop-1i54kk8.micron.com (10.102.29.193)
+Host is up (-0.00028s latency).
+Not shown: 95 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+MAC Address: F8:B1:56:9A:70:5A (Dell Pcba Test)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone
+Running (JUST GUESSING): Microsoft Windows Vista|2008|7|Phone (93%)
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows
+Aggressive OS guesses: Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (93%), Microsoft Windows Phone 7.5 (90%), Microsoft Windows 7 Professional (89%), Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008 (89%), Microsoft Windows Server 2008 R2 (87%), Microsoft Windows Server 2008 SP1 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for hcl-qa-fln-227.micron.com (10.102.29.198)
+Host is up (0.0048s latency).
+Not shown: 95 filtered ports
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+445/tcp   open   microsoft-ds
+3389/tcp  closed ms-wbt-server
+49153/tcp open   unknown
+49154/tcp open   unknown
+MAC Address: D0:50:99:63:8A:E5 (ASRock Incorporation)
+Device type: general purpose
+Running: Microsoft Windows Vista|2008|7
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7
+Network Distance: 1 hop
+
+Nmap scan report for chwiki.micron.com (10.102.29.200)
+Host is up (0.00023s latency).
+Not shown: 97 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+6001/tcp open  X11:1
+MAC Address: 44:1E:A1:06:D4:BE (Hewlett-Packard Company)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 2.6.32 (95%), Linux 2.6.32 - 3.9 (95%), Linux 3.8 (93%), Linux 3.1 (93%), Linux 3.2 (93%), AXIS 210A or 211 Network Camera (Linux 2.6) (92%), Linux 2.6.26 - 2.6.35 (92%), Linux 2.6.32 - 2.6.35 (92%), Linux 2.6.32 - 3.2 (92%)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=6.40%E=4%D=7/5%OT=22%CT=7%CU=32327%PV=Y%DS=1%DC=D%G=Y%M=441EA1%TM
+OS:=595D6A3C%P=x86_64-redhat-linux-gnu)SEQ(SP=104%GCD=1%ISR=10D%TI=Z%CI=I%T
+OS:S=8)SEQ(SP=104%GCD=1%ISR=10D%TI=Z%TS=8)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7
+OS:%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W
+OS:2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NN
+OS:SNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y
+OS:%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40
+OS:%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G
+OS:%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for gitlab-chennai.micron.com (10.102.29.101)
+Host is up (0.000013s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+3389/tcp open  ms-wbt-server
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3
+OS details: Linux 3.7 - 3.9
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 253 IP addresses (66 hosts up) scanned in 341.53 seconds

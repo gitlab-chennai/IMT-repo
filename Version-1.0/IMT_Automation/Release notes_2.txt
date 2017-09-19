@@ -1,0 +1,13 @@
+Version 1.0:
+
+Fixes/support:
+-> Firewall issues
+-> Gave support for VMWare and different Linux flavours including Ubuntu
+-> Gave support for multiple hosts
+-> Handling the multiple username logins
+-> Exception handling in master.py
+
+
+Improvements:
+-> nMap integration
+-> consolidated slave log with time stamp 
