@@ -1,0 +1,12 @@
+Version 0.0
+Welcome to the release notes for Inventory management tool.
+Read these release notes thoroughly to know what are all the features and operating systems supported.
+
+When a machine is connected to the network the tool will identify it and copy an agent program (slave agent) 
+to that machine, which will run indefinitely. The slave agent will collect the information of the machine and
+place it in a repository for every ‘X’ minutes.Once the slave logs copied to repository generate the consolidated log file.
+
+Supported Operating systems:
+1.Rhel 7.0
+
+Now supported only for single host.
